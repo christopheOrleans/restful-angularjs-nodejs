@@ -13,7 +13,7 @@ export class ItemComponent implements OnInit {
 
     public constructor(private http: Http, private route: ActivatedRoute, private location: Location) {
         this.person = {
-            "prenom": "",
+            "firstname": "",
             "lastname": "",
             "email": ""
         }
