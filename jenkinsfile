@@ -23,7 +23,7 @@ THE SOFTWARE.
 node('node') {
 
 
-    currentBuild.result = "SUCCESS"
+    currentBuild.result = "SUCCESS6666666"
 
     try {
 
@@ -34,6 +34,7 @@ node('node') {
         // env.PATH="${env.NODEJS_HOME};${env.PATH}"
         sh 'npm stop'
         sh 'npm install'
+        print "OKKKKKKK"
         print "Environment will be : ${env.NODE_ENV}"
 
        }
