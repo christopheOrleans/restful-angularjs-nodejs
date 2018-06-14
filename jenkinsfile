@@ -20,6 +20,19 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
 
+pipeline {
+    agent { docker { image 'node:6.3' } }
+    stages {
+        stage('build') {
+            steps {
+                sh 'npm --version'
+            }
+        }
+    }
+}
+
+
+/*
 node('node') {
 
 
@@ -37,7 +50,8 @@ node('node') {
         print "OKKKKKKK"
         print "Environment will be : ${env.NODE_ENV}"
 
-  
+
 
 
 }
+*/
