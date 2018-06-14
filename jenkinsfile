@@ -26,6 +26,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Test"'
+                sh 'export PATH=/usr/local/bin'
                 sh 'echo "sudo /home/f8dax/restful-angularjs-nodejs/npm start" $PATH'
                 sh 'echo "Hello World"'
                 sh '''
