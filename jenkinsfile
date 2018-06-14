@@ -26,7 +26,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'Test'
-                sh  '/home/f8dax/restful-angularjs-nodejs/npm start'
+                sh '/home/f8dax/restful-angularjs-nodejs/npm start'
                 sh 'echo "Hello World"'
                 sh '''
                     echo "Multiline shell steps works too"
