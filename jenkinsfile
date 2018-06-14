@@ -27,7 +27,8 @@ pipeline {
             steps {
                 sh 'echo "Test"'
                 sh 'export PATH=/usr/local/bin'
-                sh 'echo "sudo /home/f8dax/restful-angularjs-nodejs/npm start" $PATH'
+                sh 'echo "==="$PATH"=="' 
+                sh 'sudo /home/f8dax/restful-angularjs-nodejs/npm start'
                 sh 'echo "Hello World"'
                 sh '''
                     echo "Multiline shell steps works too"
