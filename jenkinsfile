@@ -25,7 +25,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'Test'
+                sh 'echo "Test"'
                 sh '/home/f8dax/restful-angularjs-nodejs/npm start'
                 sh 'echo "Hello World"'
                 sh '''
