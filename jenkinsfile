@@ -26,7 +26,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Test"'
-                sh 'sudo npm --prefix /usr/local/bin start'
+                sh 'sudo npm start --prefix /usr/local/bin'
                 sh 'echo "Hello World"'
                 sh '''
                     echo "Multiline shell steps works too"
