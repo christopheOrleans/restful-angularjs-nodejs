@@ -27,6 +27,7 @@ pipeline {
             steps {
                 sh 'echo "Test"'
                 sh 'sudo /usr/bin/npm install'
+                sh 'sudo /usr/bin/npm start'
                 sh 'echo "Hello World"'
                 sh '''
                     echo "Multiline shell steps works too"
