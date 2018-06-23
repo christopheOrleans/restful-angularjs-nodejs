@@ -17,6 +17,9 @@
     "uuid": "^2.0.1"
   },
   "devDependencies": {
-    "forever": "^0.15.3"
+    "forever": "^0.15.3",
+    "scripts": {
+    "test": "mocha"
+    }
   }
 }
