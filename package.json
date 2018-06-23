@@ -18,8 +18,5 @@
   },
   "devDependencies": {
     "forever": "^0.15.3"
-  },
-  "scripts": {
-    "test": "mocha"
   }
 }
