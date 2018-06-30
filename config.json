@@ -1,6 +1,6 @@
 {
     "couchbase": {        
-        "server": "couchbase://127.0.0.1",
+        "server": "127.0.0.1:8091",
         "bucket": "restful-sample"
     }
 }
